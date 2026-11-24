@@ -1,6 +1,10 @@
 # Orientační hlasování sněmu / skupiny (PHP + SQLite)
 
-Jednoduchá, rychlá webová aplikace pro orientační a preferenční hlasování ve skupině (optimalizovaná pro **100+ souběžně hlasujících osob** v reálném čase). Nevyžaduje žádný externí databázový server (MySQL/PostgreSQL) – využívá jedno-souborovou databázi **SQLite v režimu WAL** (`data/voting.sqlite`), kterou si PHP vytvoří automaticky při prvním spuštění.
+Jednoduchá, rychlá webová aplikace pro orientační a preferenční hlasování ve skupině (optimalizovaná pro **100+ souběžně hlasujících osob** v reálném čase). Nevyžaduje žádný externí databázový server (MySQL/PostgreSQL) – využívá jedno-souborovou databázi **SQLite v režimu WAL** (`data/voting.sqlite`).
+
+> **Připraveno k okamžitému použití:** Součástí repozitáře je již připravená databáze `data/voting.sqlite`, která ve výchozím stavu obsahuje **dvě předpřipravené otázky** k předsněmové diskuzi (z materiálů ve složce `otazky/`):
+> 1. **Pořadí preferencí: 6 variant stanovení delegátů VSJ** *(preferenční hlasování o pořadí variant)*
+> 2. **Pravidelné jmenování starosty: Výběr nejvhodnější varianty** *(výběr z navržených variant)*
 
 ---
 
