@@ -194,6 +194,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
 
         <h3 style="color:var(--skaut-blue); margin:16px 0 6px;">1. Jak probíhá řízení hlasování</h3>
         <ul style="margin:0 0 14px 0; padding-left:20px; font-size:14px;">
+            <li><strong>📱 Připojení účastníků (QR kód):</strong> Klikněte v horní liště na tlačítko <strong>📱 QR kód a adresa pro účastníky</strong> a promítněte jej na plátno. Účastníci si naskenují QR kód telefonem (nebo zadají zobrazenou adresu do prohlížeče) a v hlavičce uvidíte, kolik lidí je online připojeno.</li>
             <li><strong>Připraveno (Draft):</strong> Otázka je připravená v administraci, účastníci ji zatím nevidí.</li>
             <li><strong>▶️ Spustit hlasování:</strong> Otázka se okamžitě (do 2 vteřin) zobrazí všem účastníkům na jejich telefonech/noteboocích.</li>
             <li><strong>Úprava hlasu účastníkem:</strong> Každý prohlížeč má v <code>localStorage</code> svůj unikátní anonymní kód. Dokud hlasování běží, může účastník své pořadí nebo volbu kdykoliv změnit a znovu uložit – jeho předchozí hlas se přepíše (stále 1 člověk = 1 hlas).</li>
